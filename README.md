@@ -3,6 +3,6 @@
 ## IDENTIFICAÇÃO
    Breno Rafael Vendrametto-n° 06
    
-   ## conteudo
+   ## CONTEUDO
    
    HTML, CSS E JAVASCRIPT 
