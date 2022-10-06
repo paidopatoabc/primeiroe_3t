@@ -1,4 +1,4 @@
-let tabuada = 180.9;
+let tabuada = 2;
 
 function escreva(){
     document.write("<h1>Tabuada do " + tabuada + "</h1>");
@@ -15,22 +15,24 @@ function escreva(){
 };
 function minhatabuada(){
   for(let i =0; i <=10; i++){
-       document.write("tabuada do" + 1 +"<br>") ;
+       document.write("tabuada do" + 1 +"<br>") 
   for(let j = 1;~j<=10; j++) {
-  document.write(tabuada + "x" + 1 + " = " + (tabuada*1)+"<br>") ;
+  document.write(tabuada + "x" + 1 + " = " + (tabuada*1)+"<br>") 
   }
   document.write("<br>")
   }
 }
 
-
 function quadrado(){
-    for(let i=1; i <=10; i++)
+    for(let i=1; i <=10; i++);
     {
         document.write("o quadrado de" + i + "é " + (i*i) + "<br>")
 
+    }}
+
+    function calcula(){
+        let val = document.getElementById("valor").Value;
+        let j = document.getElementById("juros").Value;
+        let res = val * ((j/100));
+        document.write("resultado:" + res); 
     }
-
-
-
-}
