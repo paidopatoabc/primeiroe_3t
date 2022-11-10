@@ -55,3 +55,23 @@ color: rgb(255, 255, 255);
      border-width: 2px;
      margin-top: 10px;
 }
+.calculadoraESG{
+    background: d;
+    width: 190px;
+    color: green;
+    padding: 15px;  
+    border-radius: 26px;
+    text-align: center;
+    box-shadow: 8px 8px olive;
+}
+.calculadoraESG input{
+    background:  seagreen;
+    color: lawngreen;
+    border-radius: 7px;
+}
+.calculadoraESG input:focus{
+    background: darkolivegreen;
+    color: chartreuse;
+}
+.calcF{
+    display: none;}
